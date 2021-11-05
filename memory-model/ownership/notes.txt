@@ -1,0 +1,12 @@
+Rust Ownership model. 
+
+Why is Rust faster than Java? 
+Rust allocates memory and frees it as soon as the reference goes out of scope. 
+
+* Rust does not allow having multiple mutable references for a single piece of data.
+* The memory is automatically returned once the variable that owns it goes out of scope.
+* Rust calls DROP function automatically at the end of scope to free memory. 
+* Rust does not allow assigning references. 
+* Rust will never automatically create a deep copy.
+* Rust borrows the value in function calls and the current variable is out of scope unless the Copy trait is implemented.
+* Automatic Copy (Shallow copy) can be considered to be inexpensive in terms of runtime performance. 
