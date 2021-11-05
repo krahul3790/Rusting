@@ -9,4 +9,7 @@ fn main() {
   }
   println!("{}", x);
   println!("Hello, world!");
+
+  let x:u32 = "42".parse().expect("Not a number!");
+  println!("{}", x);
 }
