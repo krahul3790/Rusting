@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct Rectangle {
   width: u32,
   height: u32,
@@ -26,6 +27,7 @@ fn main() {
 }
 
 fn area(rectangle: &Rectangle) -> u32 {
+  println!("{}", rectangle);
   rectangle.width * rectangle.height
 }
 
