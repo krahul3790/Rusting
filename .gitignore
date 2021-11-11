@@ -1,1 +1,6 @@
-*src/target/*
+*/target/*
+
+
+# Added by cargo
+
+/target
